@@ -1,0 +1,17 @@
+p{
+    color: brown;
+}
+
+table{
+    width: 50%;
+    height: 150px;
+    border-collapse: collapse;
+    border: 2px Solid Black;
+}
+tr{
+    width: 30%;
+}
+
+td{
+    border: 2px Solid Black;
+}
