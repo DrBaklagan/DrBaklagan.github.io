@@ -6,127 +6,41 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>ЗАО Птицефабрика №1</h1>
-<form method="get">
-<table>
-	<tr>
-		<td class="right">Фамилия</td>
-		<td><input type="text" name="fam" id="fam-field" required></td>
-	</tr>
-	<tr>
-		<td class="right">Инициалы</td>
-		<td><input type="text" name="username" id="username-field" required></td>
-	</tr>
-	<tr>
-		<td class="right">Пароль</td>
-		<td><input type="password" name="password" id="password-field" required></td>
-	</tr>
-	<tr>
-		<td class="right">Адрес получателя</td>
-		<td><input type="text" name="address" id="address-field" required></td>
-	</tr>
-	<tr>
-		<td class="right">Количество</td>
-		<td><input type="text" name="count" id="count-field" required></td>
-	</tr>
-	<tr>
-		<td class="right">Тип</td>
-		<td>
-			<select name="bird" required>
-				<option value="Chiken">Куриные</option>
-				<option value="Duck">Утиные</option>
-				<option value="Turkey">Индюшачьи</option>
-			</select>
-			<select name="type" required>
-				<option value="Отборные">Отборные</option>
-				<option value="Столовые">Столовые</option>
-			</select></td>
-	</tr>
-	<tr>
-		<td class="right">Доставка</td>
-		<td>
-			<label>
-				<input type="radio" name="delivery" value="Почтой" checked> Почтой 
-			</label>
-			<label>
-				<input type="radio" name="delivery" value="Электронно"> Электронно
-			</label>
-			<label>
-				<input type="radio" name="delivery" value="Курьером"> Курьером
-			</label>
-			
-		</td>
-	</tr>
-	<tr>
-		<td class="right">Требуется накладная</td>
-		<td><input type="checkbox" name="info" id="info-field"></td>
-	</tr>
-	<tr>
-		<td class="right">Дополнительная информация</td>
-		<td><textarea rows="3"></textarea></td>
-	</tr>
-	<tr>
-		<td class="right"><input type="submit" value="Заказать"></td>
-		<td><input type="reset" value="Отменить"></td>
-	</tr>
-</table>
-</form>
-<h2>Пример формы регестрации сайта</h2>
-<form method="get">
-<table>
-	<tr>
-		<td>Логин:</td>
-	</tr>
-	<tr>
-		<td><input type="text" name="log" id="log-field" required></td>
-	</tr>
-	<tr>
-		<td>Пароль:</td>
-	</tr>
-	<tr>
-		<td><input type="password" name="password1" id="password1-field" required></td>
-	</tr>
-	<tr>
-		<td>URL-адрес сайта:</td>
-	</tr>
-	<tr>
-		<td><input type="url" value="http:\\"></td>
-	</tr>
-	<tr>
-		<td>Название сайта:</td>
-	</tr>
-	<tr>
-		<td><input type="text" name="webname" id="webname-field" required></td>
-	</tr>
-	<tr>
-		<td>О сайте</td>
-	</tr>
-	<tr>
-		<td><textarea rows="10"></textarea></td>
-	</tr>
-	<tr>
-		<td>Тема сайта:</td>
-	</tr>
-	<tr>
-		<td><select name="theme">
-				<option value="none">Тема не выбрана</option>
-				<option value="Art">Искуство</option>
-				<option value="Corp">Корпоративный сайт</option>
-				<option value="Scinence">Наука</option>
-				<option value="News">Новости</option>
-			</select></td>
-	</tr>
-	<tr>
-		<td>Банер 88х31:</td>
-	</tr>
-	<tr>
-		<td><input type="file" name="avatar"></td>
-	</tr>
-	<tr>
-		<td><input type="reset" value="Очистить"><input type="submit" value="Отправить"></td>
-	</tr>
-</table>
-</form>
-<p><a href="C:\Users\Алексей\OneDrive\Документы\HTML\index.html">На главную</a></p>
+<div class="info">
+	<div class="left-side">
+		<h1>Этот страница создана Ремезом Алексеем. <p>Таких страничек много, но эта страничка - моя!</p></h1>
+		<div class="right-side">
+			<img alt="my-photo" src="me.jpg" height="300" width="235">
+		</div>
+		<p>Связаться со мной можно по этой почте: nytec88@gmail.com</p>
+		<p>А вот <a href="https://nvsu.ru/">здесь</a> сайт моего ВУЗа.</p>
+		<p>Немного о моём Вузе:</p>
+		<p class="info">Нижневартовский государственный университет (НВГУ) — высшее учебное заведение, расположенное в Нижневартовске.
+		12 июля 1988 года в Нижневартовске был открыт филиал Тобольского государственного педагогического института им. Д. И. Менделеева.
+		Филиал включал в себя три факультета: физико-математический; филологический и педагогический.Уже не первый год по результатам ежегодного рейтинга 
+		Федерального агентства по образованию университет находится в десятке лучших педагогических, лингвистических и гуманитарных вузов России. 
+		По итогам рейтинга педагогических, гуманитарных и лингвистических вузов за 2009 год, составленного Министерством образования и науки, 
+		Нижневартовский государственный гуманитарный университет занял 5 место среди 74 вузов России. </p>
+		<p>Номер моей группы: 3012.</p>
+		<p>Моя будущая профессия - это геймдизайнер, либо же разаработчик ПО для 2D анимации.</p>
+		<p class="hobby">В мои хобби входит:
+			<ul>
+				<li>написание романа и сценариев;</li>
+				<li>просмотр сериальчиков;</li>
+				<li>настольные и компьютерные игры;</li> 
+				<li>также люблю петь, но когда остаюсь наедине с собой :-)</li></p>
+			</ul>
+		<h3><span class="italic">Что бы ещё рассказать? А! Вот! У меня есть кот Дыма, и он по какой-то причине ненавидит мои перчатки. Интерсно, почему?</span></h3>
+			<pre> 
+			 ||
+			 ||
+			 ||
+			 \/
+			</pre>
+		<h3>Задания</h3>
+		 <p><a href="C:\Users\Алексей\OneDrive\Документы\HTML\1\index.html">Таблица 1</a></p><p><a href="C:\Users\Алексей\OneDrive\Документы\HTML\2\index1.html">Таблица 2</a></p>
+		 <p><a href="C:\Users\Алексей\OneDrive\Документы\HTML\Форма1\index.html">Формы</a></p>
+	</div>
+</div>
 </body>
 </html>
