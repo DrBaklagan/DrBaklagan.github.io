@@ -1,0 +1,19 @@
+table{
+    width: 500px;
+    height: 500px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+}
+
+.col{
+    background-color: aquamarine;
+}
+.row{
+    background-color: bisque;
+}
